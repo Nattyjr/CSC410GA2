@@ -55,7 +55,7 @@ int main() {
     Pixel retrievedPixel = myGeneticCode.get_pixel(1);
     std::cout << "\nAfter setting the second gene to (113,65,57):" << std::endl;
     myGeneticCode.print();
-    std::cout << "Retrieved pixel (should be 123,45,67): " << retrievedPixel.red << "," << retrievedPixel.green << "," << retrievedPixel.blue << std::endl;
+    std::cout << "Retrieved pixel (should be 113,55,57): " << retrievedPixel.red << "," << retrievedPixel.green << "," << retrievedPixel.blue << std::endl;
 
     return 0;
 }
