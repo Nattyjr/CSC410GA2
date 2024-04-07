@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+
 // Default constructor initializes the genetic code with no genes and mutation rate set to 0
 GeneticCode::GeneticCode() : genes(nullptr), nGenes(0), mutationRate(0.0) {
     srand(static_cast<unsigned int>(time(nullptr))); // Seed RNG
@@ -27,6 +29,7 @@ void GeneticCode::allocate(int numGenes) {
 }
 
 // Frees the dynamically allocated memory for genes
+
 void GeneticCode::deallocate() {
     if (genes) {
         delete[] genes;
