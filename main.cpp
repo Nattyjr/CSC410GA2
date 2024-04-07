@@ -9,14 +9,18 @@ int main() {
 
 
 
-  
+
+
+    
     std::cout << "Initial genetic code state:" << std::endl;
     myGeneticCode.print();
 
+    
     myGeneticCode.allocate(4);
     std::cout << "\n After allocation is performed:" << std::endl;
     myGeneticCode.print();
 
+    
     myGeneticCode.randomize();
     std::cout << "\nAfter randomization:" << std::endl;
     myGeneticCode.print();
